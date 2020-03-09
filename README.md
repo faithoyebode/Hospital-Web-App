@@ -1,4 +1,6 @@
-This project is hosted on https://faith-health-app.netlify.com
+## About The App
+This app is just a simple website created with React, React-Router, Reactstrap, styled components and owl carousel.  This app is just a means to showcase my UI developpent skills. The app was hosted on Netlify - https://faith-health-app.netlify.com
+N.B: The forms are not working because it is just a practice project.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

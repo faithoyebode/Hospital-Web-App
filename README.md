@@ -1,6 +1,6 @@
 ## About The App
-This app is just a simple website created with React, React-Router, Reactstrap, styled components and owl carousel. 
-This app is just a means to showcase my UI developpent skills. 
+This app is just a simple website created with React, React-Router, Reactstrap, Styled Components and Owl Carousel. 
+This app is just a means to showcase my UI development skills. 
 
 The app was hosted on Netlify - https://faith-health-app.netlify.com
 

@@ -1,0 +1,62 @@
+.blog-date{
+    background-color: #32c69a;
+    color: white;
+    padding: 5px 10px;
+    display: inline-block;
+    font-weight: 600;
+}
+.each-post h2:hover{
+    color: #32c69a;
+}
+.each-post p:nth-child(4){
+    font-size: 0.9rem;
+    color: #797979;
+    font-weight: 600;
+}
+.each-post p:nth-child(5){
+    color: #797979;
+    line-height: 1.9;
+}
+.categories{
+    color: #8a8a8a;
+    background-color: rgb(233, 233, 250);
+    padding: 10%;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.latest-news{
+    flex-direction: column;
+}
+.blog-image{
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+}
+.blog-contents{
+    margin-left: 20px;
+}
+.blog-contents p:first-child{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.blog-contents p:nth-child(2){
+    font-weight: 500;
+    margin-top: -15px;
+    font-size: 0.9rem;
+    letter-spacing: -1px;
+}
+.blog-contents p:last-child{
+    font-size: 0.9rem;
+    color: #32c69a;
+    font-weight: 600;
+    margin-top: -10px;
+}
+#pharma{
+    font-size: 1.2rem;
+    letter-spacing: -1px;
+    color: black;
+}
+.search{
+    background-color: rgb(233, 233, 250) !important;
+    border: none !important;
+}

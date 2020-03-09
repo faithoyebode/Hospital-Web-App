@@ -1,0 +1,82 @@
+.top p:first-child{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.top p:last-child{
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-top: -15px;
+}
+.logo-text{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.logo-rider{
+    line-height: 1.7;
+}
+.top-image{
+    align-self: flex-end;
+}
+.call-now{
+    background-color: #32c69a;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.gallery{
+    border-bottom: 4px solid #32c69a;
+    position: relative;
+}
+.gallery:hover{
+    border: 4px solid #32c69a;
+    box-shadow: 0 50px 85px -10px rgba(0,0,0,0.3), 0 20px 70px -10px rgba(0,0,0,0.04);
+}
+.gallery:hover::after{
+    position: absolute;
+    content: "+";
+    background-color: #32c69a;
+    color: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 2rem;
+    bottom: 0px;
+    right: 0px;
+    line-height: 30px;
+    z-index: 20;
+}
+.gallery .name{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.gallery .duty{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+/***********************
+1. MOBILE MENU
+***********************/
+.counter-icon{
+    width: 60px;
+    height: auto;
+}
+.counter-icon + div {
+    padding: 0px 20px;
+}
+.counter-icon + div p:first-child{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.counter-icon + div p:last-child{
+    font-size: 1.18rem;
+    font-weight: 700;
+    margin-top: -30px;
+    color: #8a8a8a;
+}

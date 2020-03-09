@@ -1,0 +1,25 @@
+.contact-form{
+    border: none !important;
+    background-color: rgb(233, 233, 250) !important;
+    border-radius: 0px !important;
+    height: 55px !important;
+    margin-bottom: 30px;
+}
+.contact-button{
+    background-color: #32c691;
+    color: white;
+    padding: 10px 60px;
+    border: none;
+}
+#msg-area{
+    height: 190px !important;
+}
+.last-row{
+    border-bottom: 4px solid #32c691;
+    padding: 0 6%;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.grey{
+    color: #8a8a8a;
+}

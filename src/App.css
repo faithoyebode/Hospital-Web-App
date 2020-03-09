@@ -2,9 +2,9 @@
     overflow-x: hidden;
 }
 body{
-    overflow-x: initial;
+    
 }
-.whole-app{
+.components{
     overflow-x: hidden;
 }
 /***********

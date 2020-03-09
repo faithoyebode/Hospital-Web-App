@@ -117,12 +117,14 @@ class App extends Component{
           <Link href="facebook.com" to="/news">News</Link>
           <Link href="facebook.com" to="/contact">Contact</Link>
         </div>
-        <Route path="/" exact strict component={Home} />
-        <Route path="/about" exact strict component={About} />
-        <Route path="/services" exact strict component={Services} />
-        <Route path="/news" exact strict component={News}/>
-        <Route path="/contact" exact strict component={Contact} />
-        <Footer />
+        <div className="components">
+          <Route path="/" exact strict component={Home} />
+          <Route path="/about" exact strict component={About} />
+          <Route path="/services" exact strict component={Services} />
+          <Route path="/news" exact strict component={News}/>
+          <Route path="/contact" exact strict component={Contact} />
+          <Footer />
+        </div>
       </div>
       </Router>
     );

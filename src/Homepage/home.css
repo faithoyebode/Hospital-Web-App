@@ -52,13 +52,13 @@
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 376px){
     .heading{
-        width: 80%; 
+        width: 85%; 
     }
 
     .sub-heading{
-        width: 80%;
+        width: 75%;
     }
 }
 /*-------------------------

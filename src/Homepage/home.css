@@ -37,13 +37,28 @@
 }
 @media screen and (max-width: 768px){
     .background{
-        padding-top: 20%
+        padding-top: 20%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
     .heading{
         font-size: 2.7rem;
-        width: 70%;
+        width: 55%;
         font-weight: 500;
         line-height: 1.05;
+    }
+    .sub-heading{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .heading{
+        width: 80%; 
+    }
+
+    .sub-heading{
+        width: 80%;
     }
 }
 /*-------------------------

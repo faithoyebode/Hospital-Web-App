@@ -26,7 +26,6 @@ class App extends Component{
       close.addEventListener('click', (e) => {
         e.preventDefault();
         let mobileMenu = document.querySelector('.mobile-menu');
-        let children = document.querySelector('.mobile-menu *');
         let input = document.querySelector('.mobile-menu input');
         let menus = document.querySelectorAll('.mobile-menu a:not(.close)');
         mobileMenu.style.width = "0px";
@@ -40,7 +39,6 @@ class App extends Component{
       hamburger.addEventListener('click', (e) => {
         e.preventDefault();
         let mobileMenu = document.querySelector('.mobile-menu');
-        let children = document.querySelector('.mobile-menu *');
         let input = document.querySelector('.mobile-menu input');
         let menus = document.querySelectorAll('.mobile-menu a:not(.close)');
         mobileMenu.style.width = "100vw";

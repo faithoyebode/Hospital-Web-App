@@ -71,6 +71,12 @@ span.plus{
     background-color: black;
     
 }
+
+.hamburger:hover div{
+    opacity: 0.8;
+    background-color: #32c69a;  
+}
+
 @media screen and (max-width: 992px){
     .topbar{
         padding: 0 20px;
@@ -94,6 +100,7 @@ span.plus{
         width: 100%;
         height: 3px;
         flex-grow: 1;
+        flex-shrink: 0;
     }
     .topbar ul{
         display: none;
